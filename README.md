@@ -15,12 +15,25 @@ Follow [Toolchain](https://github.com/esp8266/esp8266-wiki/wiki/Toolchain) page
 
 You should install, 
 * Toolchain
-* Espressif SDK
+* Espressif SDK, follow below to get 0.9.5 if Toolchain page is 0.9.3
 * Xtensa libraries and headers
 * ESP image tool
 * ESP upload tool
 
-Current version of esp_iot_sdk is 0.9.5, as of writing, read http://bbs.espressif.com/viewtopic.php?f=5&t=154 to get the newer version.
+As of writing, latest version of esp_iot_sdk is 0.9.5, read about this in http://bbs.espressif.com/viewtopic.php?f=5&t=154
+```
+wget -O esp_iot_sdk_v0.9.5_15_01_23.zip http://bbs.espressif.com/download/file.php?id=189
+wget -O sdk095_patch1.zip http://bbs.espressif.com/download/file.php?id=190
+
+unzip esp_iot_sdk_v0.9.5_15_01_23.zip
+mv esp_iot_sdk_v0.9.5 ESP8266_SDK
+mv License ESP8266_SDK/.
+mv release_note.txt ESP8266_SDK/.
+
+unzip sdk095_patch1.zip
+mv user_interface.h ESP8266_SDK/include/.
+mv libmain_fix_0.9.5.a ESP8266_SDK/lib/libmain.a
+```
 
 
 2) Test writing with Blinky example
