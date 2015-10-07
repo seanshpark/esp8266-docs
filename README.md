@@ -20,6 +20,9 @@ You should install,
 * ESP image tool
 * ESP upload tool
 
+Current version of esp_iot_sdk is 0.9.5, as of writing, read http://bbs.espressif.com/viewtopic.php?f=5&t=154 to get the newer version.
+
+
 2) Test writing with Blinky example
 
 `Build` and `Flashing` is documented in two pages
