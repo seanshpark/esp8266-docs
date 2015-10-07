@@ -1,5 +1,14 @@
 #### Preparation
 
+0) Accessories
+
+You need,
+* 3.3V power supply. No AC adaptor found easy. So...
+  * Use [LM317](http://www.ti.com/lit/ds/symlink/lm317.pdf)
+  * R1 = 330 Ohm, R2 = 545 Ohm (1K + 1.2K in parallel)
+  * 5V 2A adaptor
+* USB to RS-232 Serial + RS-232 Serial to Digital
+
 1) Toolchain
 
 Follow [Toolchain](https://github.com/esp8266/esp8266-wiki/wiki/Toolchain) page
