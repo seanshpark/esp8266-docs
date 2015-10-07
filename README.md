@@ -32,7 +32,7 @@ Read [Uploading](https://github.com/esp8266/esp8266-wiki/wiki/Uploading)
 
 * Power off ESP8266 board
 * Connect GPIO0 to GND
-* Connect GOIO2 to VCC
+* Connect GPIO2 to VCC
 * Power on
 
 Flash with `make`,
