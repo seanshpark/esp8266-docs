@@ -1,1 +1,1 @@
-Please visit [Wiki](https://github.com/seanshpark/esp8266-docs/wiki) for documents
+Moved to [here](https://github.com/seanshpark/help/wiki/ESP8266-home)
